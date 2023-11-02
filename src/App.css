@@ -23,6 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.app-container {
+  display: flex;
+  width: 100%;
+  background-position: center;
+  justify-content: space-between; /* จัดเรียงสิ่งที่อยู่ในแนวนอน */
+  background-image: url('background1.jpg'); /* รูปภาพที่คุณต้องการใช้เป็นพื้นหลัง */
+  background-size: cover; /* ปรับขนาดภาพให้ครอบเติมพื้นที่ทั้งหน้า */
+  background-repeat: no-repeat; /* ไม่ทำซ้ำภาพพื้นหลัง */
+  margin: 0; /* กำหนดขอบเป็น 0 เพื่อลบระยะห่าง */
+  padding: 0; /* ลบการเพิ่มระยะห่างของเนื้อหาภายใน */
+}
 
 .App-link {
   color: #61dafb;

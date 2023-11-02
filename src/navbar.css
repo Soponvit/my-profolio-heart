@@ -1,0 +1,24 @@
+.nav-link, li  {
+    color: #000000!important;
+    font-size: 22px;
+    font-family: Copperplate;
+}
+
+
+.nav-link:hover {
+    color: #606060fc !important;/* สีเขียวเมื่อ hover */
+    font-size: 22px;
+    font-family: Copperplate;
+}
+
+a, div.navbar-brand {
+    user-select: none;
+  }
+
+  img {
+    pointer-events: none;
+  }
+
+  .nav-link:visited {
+    background-color: #69d4ff !important; /* สีพื้นหลังเมื่ออยู่ในสถานะที่ถูกเลือก (สีเขียว) */
+  }
