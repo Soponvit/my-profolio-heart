@@ -69,9 +69,9 @@ const LeftLayerC = () => {
         <div style={{ marginLeft:'20px'}}>
             <h1 style={{color:'#B60000', fontSize:'50px', padding:'30px'}}>&nbsp;Contract</h1>
             <div style={{padding:'50px'}}>
-            <h3>&nbsp;<img src='img/call.jpg' width={50}/>&nbsp;&nbsp;: 088-006-2507</h3><br /><br />
+            <h3>&nbsp;<img src='img/callx.jpg' width={50}/>&nbsp;&nbsp;: 088-006-2507</h3><br /><br />
             <h3>&nbsp;<img src='img/Facebook.png' width={50}/>&nbsp;&nbsp;: น้องฮาร์ท โรบอท</h3><br /><br />
-            <h3>&nbsp;<img src='img/Line.png' width={50}/>&nbsp;&nbsp;: heartrobotics</h3><br /><br />
+            <h3>&nbsp;<img src='img/LINEx.png' width={50}/>&nbsp;&nbsp;: heartrobotics</h3><br /><br />
             <h3>&nbsp;<img src='img/Mail.png' width={50}/>&nbsp;&nbsp;: soponvit55@gmail.com</h3>
             </div>
       </div>

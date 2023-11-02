@@ -8,10 +8,6 @@
     margin-right: 30px; /* ปรับขนาดตามที่คุณต้องการ */
   }
 
-  .title_text {
-    text-align: center;
-    font-size: 50px;
-  }
 
   .navbar {
     position: fixed;
@@ -29,20 +25,15 @@
     background-color: #ff85a3;
   }
 
-
-.navbar {
-  margin: 0;
-  padding: 0;
-}
+  .title_text {
+    text-align: center;
+    font-size: 50px;
+  }
 
 .imgheart {
   /* CSS สำหรับ <img> ทางขวา */
   width: 400px; /* กำหนดความกว้างของ <img> */
   height: auto; /* ความสูงจะปรับให้เหมาะสมตามอัตราส่วน */
-}
-.navbar {
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .app-container {

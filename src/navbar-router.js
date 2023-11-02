@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter, NavLink, Route,Routes} from 'react-router-dom'
 import './navbar.css'
+import './'
 import { Content_About_Me } from './func-components'
 import { Education_Page } from './Education-components'
 import { Skill_Page } from './skill-components'
@@ -8,7 +9,7 @@ import { Skill_Page } from './skill-components'
 export default function NavBarRouter() {
     return (
     <BrowserRouter>
-      <nav className="navbar navbar-expand-sm py-0 navbar-light px-4" style={{ backgroundColor: '#ff85a3' }}>
+      <nav className="navbar navbar-expand-sm py-0 navbar-light px-4" style={{ position:'fixed', backgroundColor: '#ff85a3' }}>
         <a className="navbar-brand mx-1">
           <img src="./logo192.png" height="50" alt=""/>
         </a>
@@ -25,7 +26,7 @@ export default function NavBarRouter() {
           </li>
         </ul>
       </nav>
-      <div className="text-center">
+      <div>
       <Routes>
         <Route path="/" element={<Content_About_Me/>}/>
         <Route path="/educations" element={<Education_Page/>}/>
