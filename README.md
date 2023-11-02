@@ -71,5 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # my-profolio-heart
 
 ### Need install after downloading code
-npm install react-router-dom.\
+npm install react-router-dom\
 npm install bootstrap
